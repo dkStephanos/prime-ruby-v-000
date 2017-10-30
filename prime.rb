@@ -1,5 +1,5 @@
 def prime?(number)
-  if number.abs == 1 || number * -1 == 2 || number == 0
+  if number.abs == 1 || number.abs == 2 || number == 0
     return false
   end
   (2..(number.abs - 1)).each do |num|
